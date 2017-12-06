@@ -346,14 +346,11 @@
       "dev": true
     },
     "angular-4-data-table": {
-      "version": "0.2.4",
-      "resolved": "https://registry.npmjs.org/angular-4-data-table/-/angular-4-data-table-0.2.4.tgz",
-      "integrity": "sha512-6QFHGlrP4TVeCaaAHWDdqYiP8axEb2jHH15/oDo7xfcBxgMt25fUrex9HIWF1ifKLu92PrhinUviFb6NEPTrRw==",
+      "version": "0.2.3",
+      "resolved": "https://registry.npmjs.org/angular-4-data-table/-/angular-4-data-table-0.2.3.tgz",
+      "integrity": "sha512-J3tBKcHf6fWeHr678FaBZT1vxf4XdsedTNoW1zVsEurJ5vwfY7LsDDcvVjLHhvslZWCiyZ58cYK4diSd/NVQDg==",
       "requires": {
-        "@angular/common": "4.3.4",
         "@angular/core": "4.3.4",
-        "@angular/forms": "4.3.4",
-        "@angular/platform-browser": "4.3.4",
         "@types/node": "6.0.85",
         "rxjs": "5.4.3",
         "ts-node": "2.0.0",
@@ -3647,6 +3644,14 @@
             }
           }
         },
+        "string_decoder": {
+          "version": "1.0.1",
+          "bundled": true,
+          "dev": true,
+          "requires": {
+            "safe-buffer": "5.0.1"
+          }
+        },
         "string-width": {
           "version": "1.0.2",
           "bundled": true,
@@ -3655,14 +3660,6 @@
             "code-point-at": "1.1.0",
             "is-fullwidth-code-point": "1.0.0",
             "strip-ansi": "3.0.1"
-          }
-        },
-        "string_decoder": {
-          "version": "1.0.1",
-          "bundled": true,
-          "dev": true,
-          "requires": {
-            "safe-buffer": "5.0.1"
           }
         },
         "stringstream": {
@@ -8136,6 +8133,15 @@
       "integrity": "sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM=",
       "dev": true
     },
+    "string_decoder": {
+      "version": "1.0.3",
+      "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz",
+      "integrity": "sha512-4AH6Z5fzNNBcH+6XDMfA/BTt87skxqJlO0lAh3Dker5zThcAxG6mKz+iGu308UKoPPQ8Dcqx/4JhujzltRa+hQ==",
+      "dev": true,
+      "requires": {
+        "safe-buffer": "5.1.1"
+      }
+    },
     "string-width": {
       "version": "2.1.1",
       "resolved": "https://registry.npmjs.org/string-width/-/string-width-2.1.1.tgz",
@@ -8161,15 +8167,6 @@
             "ansi-regex": "3.0.0"
           }
         }
-      }
-    },
-    "string_decoder": {
-      "version": "1.0.3",
-      "resolved": "https://registry.npmjs.org/string_decoder/-/string_decoder-1.0.3.tgz",
-      "integrity": "sha512-4AH6Z5fzNNBcH+6XDMfA/BTt87skxqJlO0lAh3Dker5zThcAxG6mKz+iGu308UKoPPQ8Dcqx/4JhujzltRa+hQ==",
-      "dev": true,
-      "requires": {
-        "safe-buffer": "5.1.1"
       }
     },
     "stringstream": {
